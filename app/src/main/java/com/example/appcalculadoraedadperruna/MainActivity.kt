@@ -20,9 +20,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AppCalculadoraEdadPerrunaTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
-                }
+
             }
         }
     }
@@ -30,7 +29,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun GreetingI(modifier: Modifier = Modifier){
-    val imagen = painterResource(id = R.drawable.)
+    val imagen = painterResource(id = R.drawable.ic_launcher_background)
 }
 
 @Composable
